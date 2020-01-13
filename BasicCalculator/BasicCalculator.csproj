@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Add\Add.csproj" />
+    <ProjectReference Include="..\Cube\Cube.csproj" />
+    <ProjectReference Include="..\Divide\Divide.csproj" />
+    <ProjectReference Include="..\Multiply\Multiply.csproj" />
+    <ProjectReference Include="..\Operations\Operations.csproj" />
+    <ProjectReference Include="..\SquareRoot\SquareRoot.csproj" />
+    <ProjectReference Include="..\Square\Square.csproj" />
+    <ProjectReference Include="..\Subtract\Subtract.csproj" />
+  </ItemGroup>
+
+</Project>
